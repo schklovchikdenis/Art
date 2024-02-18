@@ -1,0 +1,24 @@
+@import "section/null.css";
+@import "section/icons.css";
+@import "section/home.css";
+@import "section/teams.css";
+@import "section/intro.css";
+@import "section/trending.css";
+
+body {
+   max-width: 1920px;
+}
+.container {
+   max-width: 1240px;
+   padding: 0px 15px 0px 15px;
+   margin: 0 auto;
+   /* text-align: center; */
+   /* border:1px solid red; */
+}
+a {
+   transition: color 0.3s;
+}
+a:hover {
+   color: red;
+}
+/* Основные стили */

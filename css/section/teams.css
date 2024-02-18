@@ -1,0 +1,68 @@
+/* Блок teams */
+.teams {
+   background-color: #fff;
+   padding: 100px 0px 145px 0px;
+}
+.teams-container {
+}
+.container {
+}
+.teams-items {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+.teams-item {
+   display: flex;
+}
+.teams-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 25px;
+   font-weight: 300;
+   font-size: 16px;
+   color: #000;
+   text-transform: uppercase;
+}
+
+.teams-link__img {
+   width: 166px;
+   height: 166px;
+   position: relative;   
+
+}
+.teams-link__img img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   position: absolute;
+}
+.teams-link:hover {
+   color: red;
+   transition: color 0.3s;
+}
+
+.teams-item__link {
+   background-color: #f4aa3e;
+   width: 166px;
+   height: 166px;
+}
+
+.teams-link__text-bold {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 14px;
+   padding: 69px 76px 66px 38px;
+   color: #fff;
+   line-height: 16px;
+   position: relative;
+}
+.teams-link__text_bold::after {
+   content: "\e905";
+   font-family: art;
+   font-size: 12px;
+   position: absolute;
+   right: 22px;
+   top: 77px;
+}

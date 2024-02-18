@@ -1,0 +1,121 @@
+.home {
+   background: url(../../img/1.png)  0 0/cover no-repeat;
+   /* background-repeat: no-repeat; */
+   padding-top: 58px;
+   padding-bottom: 240px;   
+}
+/* .container {
+   max-width: 1230px;
+   padding: 0px 15px 0px 15px;
+   /* border: 1px solid red; */
+   /* margin: 0 auto; */
+/* } */
+.home-container {
+   justify-content: flex-end;
+}
+.nav {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 250px;
+}
+.nav-left {
+   display: flex;
+   align-items: center;
+   margin-right: 45px;
+   gap: 35px;
+}
+.nav-left a {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 700;
+   font-family: Oswald;
+   transition: color 0.3s;
+}
+
+.nav-right {
+   display: flex;
+   gap: 45px;
+   align-items: center;
+}
+.nav-right__link {
+   color: #fff;
+}
+
+.nav-right__link .icon-1,
+.nav-right__link .icon-2,
+.nav-right__link .icon-3 {
+   font-size: 24px;
+   transition: color 0.3s;
+}
+
+.nav-right__link .icon-1:hover,
+.nav-right__link .icon-2:hover,
+.nav-right__link .icon-3:hover {
+   color: red;
+}
+
+.card {
+   position: relative;
+}
+.card::after {
+   content: "9";
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #f4aa3e;
+   position: absolute;
+   border: 50%;
+   top: -10px;
+   left: 15px;
+   color: #000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner {
+   margin-left: 140px;
+}
+.title {
+   font-size: 48px;
+   font-weight: 700;
+   font-family: Cormorant;
+   text-transform: uppercase;
+   line-height: 62px;
+   color: #fff;
+   margin-bottom: 40px;
+}
+.title p {
+   color: #000;
+}
+
+.btn {
+   font-size: 14px;
+   font-weight: 700;
+   font-family: Oswald;
+   color: #fff;
+   text-transform: uppercase;
+   padding: 21px 66px 23px 41px;
+   background-color: #f4aa3e;
+   position: relative;
+   transition: background-color, color 0.3s;
+}
+
+.btn::after {
+   content: "\e905";
+   font-family: art;
+   font-size: 12px;
+   position: absolute;
+   right: 34px;
+}
+
+.btn:hover {
+   background-color: #fff;
+   color: red;
+}
+
+.btn > .icon-4 {
+   position: absolute;
+   right: 34px;
+}
